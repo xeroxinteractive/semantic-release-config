@@ -24,9 +24,9 @@ module.exports = {
           attachments: [
             {
               title:
-                ':rocket: A new version of to <$repo_url|$package_name> was just published.',
+                ':rocket: A new version of <$repo_url|$package_name> was just published.',
               text:
-                'Version $npm_package_number, triggered by ' +
+                'Version $npm_package_version, triggered by ' +
                 process.env.CIRCLE_USERNAME,
               color: 'good',
               attachment_type: 'default'
