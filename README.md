@@ -30,13 +30,11 @@ Uses the following plugins:
 * [@semantic-release/plugin-changelog](https://github.com/semantic-release/changelog)
 * [@semantic-release/plugin-npm](https://github.com/semantic-release/npm)
 * [@semantic-release/plugin-git](https://github.com/semantic-release/git)
-* [@semantic-release/plugin-github](https://github.com/semantic-release/github)
 * [@semantic-release-slack-bot](https://github.com/juliuscc/semantic-release-slack-bot/)
 
 These plugins require the following environment variables:
 * `NPM_TOKEN`: so semantic-release can publish to npm.
-* `GH_TOKEN`: so semantic-release can comment on PRs and create releases.
-
+* `SLACK_WEBHOOK`: so semantic-release-slack-bot can notify slack.
 
 ---
 
