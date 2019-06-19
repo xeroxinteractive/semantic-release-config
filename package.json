@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-config-xerox",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "semantic-release shareable config for Xerox projects",
   "repository": "git@github.com:xeroxinteractive/semantic-release-config-xerox.git",
   "homepage": "https://github.com/xeroxinteractive/semantic-release-config-xerox#readme",
