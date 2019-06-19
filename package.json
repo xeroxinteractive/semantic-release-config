@@ -1,0 +1,62 @@
+{
+  "name": "semantic-release-config-xerox",
+  "version": "0.0.0",
+  "description": "semantic-release shareable config for Xerox projects",
+  "repository": "git@github.com:xeroxinteractive/semantic-release-config-xerox.git",
+  "homepage": "https://github.com/xeroxinteractive/semantic-release-config-xerox#readme",
+  "author": "Andrew Leedham <Andrew.Leedham@xerox.com>",
+  "license": "MIT",
+  "files": [
+    "npm.js"
+  ],
+  "scripts": {
+    "lint": "eslint .",
+    "format": "eslint . --fix",
+    "deploy": "semantic-release"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint --env HUSKY_GIT_PARAMS"
+    }
+  },
+  "eslintConfig": {
+    "extends": [
+      "xerox"
+    ]
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "singleQuote": true,
+    "arrowParens": "always",
+    "endOfLine": "lf"
+  },
+  "release": {
+    "extends": "./npm"
+  },
+  "dependencies": {
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/git": "^3.1.0",
+    "@semantic-release/github": "^5.4.0",
+    "@semantic-release/npm": "^5.1.1",
+    "@semantic-release/release-notes-generator": "^7.1.4",
+    "semantic-release-slack-bot": "^1.1.0"
+  },
+  "peerDependencies": {
+    "semantic-release": "*"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.0.0",
+    "@commitlint/config-conventional": "^8.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-xerox": "^1.4.2",
+    "husky": "^2.4.1",
+    "prettier": "^1.18.2",
+    "semantic-release": "^15.13.16"
+  }
+}
