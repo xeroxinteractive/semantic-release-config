@@ -1687,22 +1687,22 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-prettier@^4.1.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-4.3.0.tgz#c55c1fcac8ce4518aeb77906984e134d9eb5a4f0"
-  integrity sha512-sZwhSTHVVz78+kYD3t5pCWSYEdVSBR0PXnwjDRsUs8ytIrK8PLXw+6FKp8r3Z7rx4ZszdetWlXYKOHoUrrwPlA==
+eslint-config-prettier@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-5.0.0.tgz#f7a94b2b8ae7cbf25842c36fa96c6d32cd0a697c"
+  integrity sha512-c17Aqiz5e8LEqoc/QPmYnaxQFAHTx2KlCZBPxXXjEMmNchOLnV/7j0HoPZuC+rL/tDC9bazUYOKJW9bOhftI/w==
   dependencies:
     get-stdin "^6.0.0"
 
 eslint-config-xerox@^1.4.2:
-  version "1.4.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-xerox/-/eslint-config-xerox-1.4.2.tgz#7a7cbfd8f4f0984b89d0d70a3a810cd2a561191f"
-  integrity sha512-2zmRS947hnRPJriHhZsNmNm/N+jhegtmYC8blaPrbOFVNc28y66fmzLPzWqdRCkFMDIvj2BoW13MwaWWzaSDxw==
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/eslint-config-xerox/-/eslint-config-xerox-1.4.3.tgz#f79b6b8eeb1af24db035d36e07e543052decb024"
+  integrity sha512-csv4Ywkn8iSdvi7dOQH/1q7LkeEtgoSTmxgtWP4nZHpj0OG3b7o9znY3dZsdcc5a8o2I1lUiBnmRFItKYK462A==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^1.10.2"
     "@typescript-eslint/parser" "^1.10.2"
     babel-eslint "^10.0.1"
-    eslint-config-prettier "^4.1.0"
+    eslint-config-prettier "^5.0.0"
     eslint-plugin-jest "^22.4.1"
     eslint-plugin-jsdoc "^8.1.0"
     eslint-plugin-prettier "^3.0.1"
