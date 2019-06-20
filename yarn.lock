@@ -4965,9 +4965,9 @@ safe-regex@^1.1.0:
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
 semantic-release-slack-bot@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/semantic-release-slack-bot/-/semantic-release-slack-bot-1.1.0.tgz#2117998dfbfb3ceefd90f3709d918a8af9d43d04"
-  integrity sha512-xsm8hip60Cy5yJu2yax1TMxK+GEMxMSALSp7kKgpROJltbScsZrdZrjyOurLiWsV5E4uFNPka3u1ulUCcgXiqQ==
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/semantic-release-slack-bot/-/semantic-release-slack-bot-1.1.2.tgz#95617bc47793c359fd043acf54ceb1944e99cc4e"
+  integrity sha512-MStbAII+lsgPO0TLBUJeb6pIJguuRW2S7hq4gstNYAbtyALLjaFyHcHrabse35YqxN/oMyZBq8HuO7sbK3ZhJg==
   dependencies:
     "@semantic-release/error" "^2.2.0"
     node-fetch "^2.3.0"
