@@ -320,15 +320,15 @@
   integrity sha512-9Tj/qn+y2j+sjCI3Jd+qseGtHjOAeg7dU2/lVcqIQ9TV3QDaDXDYXcoOHU+7o2Hwh8L8ymL4gfuO7KxDs3q2zg==
 
 "@semantic-release/git@^7.0.12":
-  version "7.0.13"
-  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-7.0.13.tgz#4099237d355a9411cb08d8264e5c4cef99f84dd9"
-  integrity sha512-BlmQ87TGx0GsE/RC4R3RQH4fvZY5ch0f7E41z510e6zOGNn5sn7e1r+pWcZYOiNjlmb+7M3yXg8cZHz5kGFZVw==
+  version "7.0.14"
+  resolved "https://registry.yarnpkg.com/@semantic-release/git/-/git-7.0.14.tgz#e5b7afdec2ca30ab9481a5846d047076ab443c93"
+  integrity sha512-vguH9IcxgYN7db0PQviLgnpQGQGN/fONZlupYVNBjxZMxU29w6AHOmU7RbNO5VIDk9sw4fiWW2fo17RKKoSZWw==
   dependencies:
     "@semantic-release/error" "^2.1.0"
     aggregate-error "^3.0.0"
     debug "^4.0.0"
     dir-glob "^2.0.0"
-    execa "^2.0.0"
+    execa "^1.0.0"
     fs-extra "^8.0.0"
     globby "^9.0.0"
     lodash "^4.17.4"
@@ -376,9 +376,9 @@
     registry-auth-token "^4.0.0"
 
 "@semantic-release/release-notes-generator@^7.1.2", "@semantic-release/release-notes-generator@^7.2.0":
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-7.2.0.tgz#d09f9f97a0f33149411c36843d1378d3c290ada8"
-  integrity sha512-CQAN6ViNL27p0TivCabpuDSjLl9eaP5yHRwSVYLLGg6RXu972PFk3DqOKuMQHsyDAx7wze2vU8qESt6/Mt6AuQ==
+  version "7.2.1"
+  resolved "https://registry.yarnpkg.com/@semantic-release/release-notes-generator/-/release-notes-generator-7.2.1.tgz#2c0c340e7be2a3d27c28cb869b6737a70f2862fe"
+  integrity sha512-TdlYgYH6amhE80i9L9HPcTwYzk4Rma7qM1g7XJEEfip7dNXWgmrBeibN4DJmTg/qrUFDd4GD86lFDcYXNZDNow==
   dependencies:
     conventional-changelog-angular "^5.0.0"
     conventional-changelog-writer "^4.0.0"
@@ -389,6 +389,7 @@
     import-from "^3.0.0"
     into-stream "^5.0.0"
     lodash "^4.17.4"
+    read-pkg-up "^6.0.0"
 
 "@types/eslint-visitor-keys@^1.0.0":
   version "1.0.0"
