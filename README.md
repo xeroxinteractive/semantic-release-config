@@ -24,7 +24,9 @@ npm install semantic-release semantic-release-config-xerox --save-dev
 
 ## Configurations
 ### npm
-Uses the following plugins:
+For publishing npm modules.
+
+#### Plugins:
 * [@semantic-release/plugin-commit-analyzer](https://github.com/semantic-release/commit-analyzer)
 * [@semantic-release/plugin-release-notes-generator](https://github.com/semantic-release/release-notes-generator)
 * [@semantic-release/plugin-changelog](https://github.com/semantic-release/changelog)
@@ -32,9 +34,18 @@ Uses the following plugins:
 * [@semantic-release/plugin-git](https://github.com/semantic-release/git)
 * [@semantic-release-slack-bot](https://github.com/juliuscc/semantic-release-slack-bot/)
 
-These plugins require the following environment variables:
+#### Environment variables:
 * `NPM_TOKEN`: so semantic-release can publish to npm.
 * `SLACK_WEBHOOK`: so semantic-release-slack-bot can notify slack.
+
+### simple
+For keeping track of changes.
+
+#### Plugins:
+* [@semantic-release/plugin-commit-analyzer](https://github.com/semantic-release/commit-analyzer)
+* [@semantic-release/plugin-release-notes-generator](https://github.com/semantic-release/release-notes-generator)
+* [@semantic-release/plugin-changelog](https://github.com/semantic-release/changelog)
+* [@semantic-release/plugin-git](https://github.com/semantic-release/git)
 
 ---
 
