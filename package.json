@@ -1,10 +1,10 @@
 {
-  "name": "semantic-release-config-xerox",
+  "name": "@xerox/semantic-release-config",
   "version": "1.1.0",
   "description": "semantic-release shareable config for Xerox projects",
-  "repository": "git@github.com:xeroxinteractive/semantic-release-config-xerox.git",
-  "homepage": "https://github.com/xeroxinteractive/semantic-release-config-xerox#readme",
-  "author": "Andrew Leedham <Andrew.Leedham@xerox.com>",
+  "repository": "git@github.com:xeroxinteractive/semantic-release-config.git",
+  "homepage": "https://github.com/xeroxinteractive/semantic-release-config#readme",
+  "author": "Andrew Leedham <andrew.leedham@xerox.com>",
   "license": "MIT",
   "files": [
     "npm.js",
@@ -27,7 +27,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "xerox"
+      "@xerox"
     ]
   },
   "prettier": {
@@ -38,6 +38,9 @@
   },
   "release": {
     "extends": "./npm"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "dependencies": {
     "@semantic-release/changelog": "^3.0.4",
@@ -54,7 +57,7 @@
     "@commitlint/cli": "^8.0.0",
     "@commitlint/config-conventional": "^8.0.0",
     "eslint": "^5.16.0",
-    "eslint-config-xerox": "^1.4.2",
+    "@xerox/eslint-config": "^1.5.1",
     "husky": "^3.0.0",
     "prettier": "^1.18.2",
     "semantic-release": "^15.13.16"

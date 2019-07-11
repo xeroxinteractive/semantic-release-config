@@ -1,4 +1,4 @@
-# semantic-release-config-xerox
+# @xerox/semantic-release-config
 
 > semantic-release shareable config for Xerox projects
 
@@ -11,14 +11,18 @@
 ## Usage
 1. Install this config and eslint as a `devDependency`:
 ```bash
-yarn add semantic-release semantic-release-config-xerox --dev
+yarn add semantic-release @xerox/semantic-release-config --dev
 # or
-npm install semantic-release semantic-release-config-xerox --save-dev
+npm install semantic-release @xerox/semantic-release-config --save-dev
 ```
 2. Extend the base and any additional configs in your semantic release configuration:
-```json
+```jsonc
 {
-  "extends": "semantic-release-config-xerox/npm"
+  "extends": "@xeorx/semantic-release-config/npm"
+}
+// or
+{
+  "extends": "@xeorx/semantic-release-config/simple"
 }
 ```
 
@@ -53,17 +57,18 @@ For keeping track of changes.
 
 [license]: ./LICENSE
 [changelog]: ./CHANGELOG.md
-[issues]: https://github.com/xeroxinteractive/semantic-release-config-xerox/issues
+[issues]: https://github.com/xeroxinteractive/semantic-release-config/issues
 
-[circleci-badge]: https://flat.badgen.net/circleci/github/xeroxinteractive/semantic-release-config-xerox/master
-[circleci-link]: https://circleci.com/gh/xeroxinteractive/semantic-release-config-xerox/tree/master
+[circleci-badge]: https://flat.badgen.net/circleci/github/xeroxinteractive/semantic-release-config/master
+[circleci-link]: https://circleci.com/gh/xeroxinteractive/semantic-release-config/tree/master
 
-[npm-badge]: https://flat.badgen.net/npm/v/semantic-release-config-xerox?color=cyan
-[npm-link]: https://www.npmjs.com/package/semantic-release-config-xerox
+[npm-badge]: https://flat.badgen.net/npm/v/@xerox/semantic-release-config?color=cyan
+[npm-link]: https://www.npmjs.com/package/@xerox/semantic-release-config
 
-[license-badge]: https://flat.badgen.net/npm/license/semantic-release-config-xerox
+[license-badge]: https://flat.badgen.net/npm/license/@xerox/semantic-release-config
 
 [commit-style-badge]: https://flat.badgen.net/badge/commit%20style/angular/purple
 [commit-style-link]: https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines
+
 [semantic-release-badge]: https://flat.badgen.net/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80/semantic%20release/e10079
 [semantic-release-link]: https://github.com/semantic-release/semantic-release
