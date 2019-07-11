@@ -18,11 +18,11 @@ npm install semantic-release @xerox/semantic-release-config --save-dev
 2. Extend the base and any additional configs in your semantic release configuration:
 ```jsonc
 {
-  "extends": "@xeorx/semantic-release-config/npm"
+  "extends": "@xerox/semantic-release-config/npm"
 }
 // or
 {
-  "extends": "@xeorx/semantic-release-config/simple"
+  "extends": "@xerox/semantic-release-config/simple"
 }
 ```
 
