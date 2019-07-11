@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/xeroxinteractive/semantic-release-config/compare/v1.2.0...v1.3.0) (2019-07-11)
+
+
+### Features
+
+* move to xerox prettier-config ([da20f8f](https://github.com/xeroxinteractive/semantic-release-config/commit/da20f8f))
+
 # [1.2.0](https://github.com/xeroxinteractive/semantic-release-config/compare/v1.1.0...v1.2.0) (2019-07-11)
 
 
