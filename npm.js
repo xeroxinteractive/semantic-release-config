@@ -19,11 +19,11 @@ module.exports = {
                 'Version $npm_package_version, triggered by ' +
                 process.env.CIRCLE_USERNAME,
               color: 'good',
-              attachment_type: 'default'
-            }
-          ]
-        }
-      }
-    ]
-  ]
+              attachment_type: 'default',
+            },
+          ],
+        },
+      },
+    ],
+  ],
 };
