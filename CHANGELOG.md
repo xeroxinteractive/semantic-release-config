@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/xeroxinteractive/semantic-release-config/compare/v1.3.0...v1.4.0) (2019-08-27)
+
+
+### Features
+
+* dependabot security commits create patches ([c851445](https://github.com/xeroxinteractive/semantic-release-config/commit/c851445))
+
 # [1.3.0](https://github.com/xeroxinteractive/semantic-release-config/compare/v1.2.0...v1.3.0) (2019-07-11)
 
 
