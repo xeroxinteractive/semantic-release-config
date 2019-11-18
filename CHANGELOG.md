@@ -1,3 +1,5 @@
+## [1.4.2](https://github.com/xeroxinteractive/semantic-release-config/compare/v1.4.1...v1.4.2) (2019-11-18)
+
 ## [1.4.1](https://github.com/xeroxinteractive/semantic-release-config/compare/v1.4.0...v1.4.1) (2019-11-11)
 
 # [1.4.0](https://github.com/xeroxinteractive/semantic-release-config/compare/v1.3.0...v1.4.0) (2019-08-27)
