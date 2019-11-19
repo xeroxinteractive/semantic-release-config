@@ -1,4 +1,4 @@
-# @xerox/semantic-release-config
+# ~~@xerox/semantic-release-config~~ __Archived__: Moved to monorepo [xeroxinteractive/config](https://github.com/xeroxinteractive/config)
 
 > semantic-release shareable config for Xerox projects
 
